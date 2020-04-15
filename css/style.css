@@ -198,7 +198,7 @@ body{
 }
 .subscribe-block{
    position: relative;
-   height: 500px;
+   min-height: 500px;
    overflow: hidden; 
 }
 .subscribe-form{
@@ -344,7 +344,7 @@ body{
    }
    .subscribe-block{
       background-color: #ECECEC;
-      max-height: 300px;
+      min-height: 300px;
    }
    .footer{
       flex-direction: column;
@@ -456,7 +456,7 @@ body{
       font-size: 20px;
    }
    .subscribe-block{
-      height: 250px;
+      min-height: 250px;
    }
    .subscribe-form{
       width: 100%;
